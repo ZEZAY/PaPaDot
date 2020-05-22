@@ -33,7 +33,7 @@ public class GameView extends View {
     // tool
     private Timer timer;
     private Random random;
-    private int maxWidth, maxHeight;
+    private int maxWidth = 1920, maxHeight = 1080;
     private int minWidth = 0, minHeight = 0;
 
     public GameView(Context context) {
