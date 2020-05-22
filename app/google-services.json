@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "142276077800",
+    "firebase_url": "https://papadot.firebaseio.com",
+    "project_id": "papadot",
+    "storage_bucket": "papadot.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:142276077800:android:4a0a7d3fffb8ab40b4815d",
+        "android_client_info": {
+          "package_name": "com.zaga.papadot"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "142276077800-4dn19f36iuik6vlrdkkpsfth7u3bov2r.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCdAex0Tlg-42hAGiMhfUEw8vu6fGFoPtY"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "142276077800-4dn19f36iuik6vlrdkkpsfth7u3bov2r.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

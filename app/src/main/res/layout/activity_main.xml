@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/txt_top_ranking"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="top_ranking"
+        android:textSize="18sp"
+        android:textColor="#000"
+        android:fontFamily="casual"
+        android:layout_alignParentRight="true"
+        android:layout_margin="16dp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="PaPaDot"
+        android:textSize="34sp"
+        android:textColor="#000"
+        android:fontFamily="casual"
+        android:layout_centerHorizontal="true"
+        android:layout_above="@+id/toPlay"/>
+
+    <TextView
+        android:id="@+id/toPlay"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Play"
+        android:textSize="64sp"
+        android:textColor="#000"
+        android:fontFamily="casual"
+        android:layout_centerInParent="true"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="made with ❤️ by __"
+        android:fontFamily="casual"
+        android:layout_below="@+id/toPlay"
+        android:layout_centerHorizontal="true"/>
+
+</RelativeLayout>
