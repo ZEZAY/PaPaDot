@@ -19,9 +19,9 @@
         android:id="@+id/ed_player_name"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="unknow"
+        android:hint="Enter your name here!"
         android:textSize="18sp"
-        android:textColor="#000"
+        android:textColor="#FF0000"
         android:fontFamily="casual"
         android:layout_centerHorizontal="true"
         android:layout_below="@+id/txt_score"
@@ -37,8 +37,8 @@
         android:padding="8dp"
         android:fontFamily="casual"
         android:layout_centerHorizontal="true"
-        android:layout_below="@+id/txt_score"
-        android:layout_marginTop="50dp"
+        android:layout_below="@+id/ed_player_name"
+        android:layout_marginTop="16dp"
         />
 
     <Button
@@ -52,7 +52,7 @@
         android:fontFamily="casual"
         android:layout_centerHorizontal="true"
         android:layout_below="@+id/btn_restart"
-        android:layout_marginTop="15dp"
+        android:layout_marginTop="16dp"
         />
 
 </RelativeLayout>

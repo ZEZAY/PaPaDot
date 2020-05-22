@@ -48,11 +48,19 @@ public class GameOverActivity extends AppCompatActivity {
                 startActivity(new Intent(GameOverActivity.this, MainActivity.class));
             }
         });
+
+        findViewById(R.id.ed_player_name).setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                ((EditText) findViewById(R.id.ed_player_name)).setText("");
+            }
+        });
     }
 
     private void saveScoreToDatabase(int score) {
         // get player's name
         String playerName = ((EditText) findViewById(R.id.ed_player_name)).getText().toString();
+        if (playerName.isEmpty()) playerName = "unknow";
         // new Ranker
         Ranker ranker = new Ranker(playerName, score);
         MainActivity.topRanker = ranker;
