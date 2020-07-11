@@ -48,13 +48,6 @@ public class GameOverActivity extends AppCompatActivity {
                 startActivity(new Intent(GameOverActivity.this, MainActivity.class));
             }
         });
-
-        findViewById(R.id.ed_player_name).setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-                ((EditText) findViewById(R.id.ed_player_name)).setText("");
-            }
-        });
     }
 
     private void saveScoreToDatabase(int score) {
